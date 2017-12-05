@@ -1,0 +1,53 @@
+.layout{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ flex-direction: column;
+ min-height: 100vh !important;
+}
+.layoutContent {
+ width: 80%;
+ height: 100% !important;
+ display: block !important;
+ flex: 1;
+}
+.footer {
+ /*position: absolute;*/
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 1rem;
+ background-color: #efefef;
+ text-align: center;
+ width: 100%;
+}
+.navbar-brand{
+ padding: 8px 15px !important;
+}
+.navbar {
+ border-radius: 0px !important;
+}
+
+.lazyForms a{
+ color: #1db954 !important;
+ text-decoration: none !important;
+}
+.artistItemList{
+ padding: 15px 0px;
+}
+.artistItemList a{
+ color: #000;
+}
+.btn-debtsapp{
+ border: none;
+ text-transform:uppercase;
+ letter-spacing: 3px;
+ font-weight: bold;
+ color: #fff !important;
+ background-color: #1db954;
+ font-size: 12px;
+ line-height: 1;
+ border-radius: 500px;
+ padding: 11px 32px 9px;
+ text-decoration: none !important;
+}
